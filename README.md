@@ -1,5 +1,5 @@
-# Tweet Wordcloud
-Repository where it is created with Python, a Word Cloud of a tweet list.
+# Twitter Analytics
+Repository where NLP techniques are used to perform analytics on tweets made by an account.
 
 ## Dependencies
 The project was carried out with the latest version of <a href="https://www.anaconda.com/distribution/" target="_blank" >Anaconda</a> on Windows.
@@ -7,6 +7,8 @@ The project was carried out with the latest version of <a href="https://www.anac
 To install this package with conda run one of the following:
 ``` console
   conda install -c conda-forge tweepy
+  conda install -c conda-forge spacy
+  conda install -c conda-forge wordcloud
 ```
 
 ## Contributing and Feedback
