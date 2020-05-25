@@ -1,5 +1,7 @@
 # Twitter Analytics
-Repository where NLP techniques are used to perform analytics on tweets made by an account.
+Project where NLP techniques are used to perform analytics on tweets made by an account.
+
+![PCA Plot](https://raw.githubusercontent.com/ansegura7/TwitterAnalytics/master/img/wordcloud.png)
 
 ## Dependencies
 The project was carried out with the latest version of <a href="https://www.anaconda.com/distribution/" target="_blank" >Anaconda</a> on Windows.
