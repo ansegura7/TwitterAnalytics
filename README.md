@@ -36,7 +36,6 @@ from wordcloud import WordCloud
 
 # Import plot libraries
 import matplotlib.pyplot as plt
-import seaborn as sns
 ```
 
 ## Documentation
