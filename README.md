@@ -44,6 +44,7 @@ import matplotlib.pyplot as plt
 Below, some useful and relevant links to this project:
 
 - <a href="https://realpython.com/twitter-bot-python-tweepy/" target="_blank" >How to Make a Twitter Bot in Python With Tweepy</a>
+- <a href="https://textblob.readthedocs.io/en/dev/quickstart.html" target="_blank" >TextBlob Tutorial</a>
 
 ## Contributing and Feedback
 Any kind of feedback/criticism would be greatly appreciated (algorithm design, documentation, improvement ideas, spelling mistakes, etc...).
