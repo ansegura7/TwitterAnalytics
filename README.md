@@ -11,6 +11,7 @@ To install this package with conda run one of the following:
 conda install -c conda-forge tweepy
 conda install -c conda-forge spacy
 conda install -c conda-forge wordcloud
+conda install -c conda-forge textblob
 ```
 
 The specific Python 3.7.x libraries used are:
@@ -25,8 +26,9 @@ import yaml
 import warnings
 import calendar
 from datetime import date
-from collections import Counter
 from PIL import Image
+from collections import Counter
+from textblob import TextBlob
 
 # Import NLP libraries
 import re
