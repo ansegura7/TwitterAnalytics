@@ -4,7 +4,7 @@ Project where NLP techniques are used to perform analytics on tweets made by an 
 ![PCA Plot](https://raw.githubusercontent.com/ansegura7/TwitterAnalytics/master/img/wordcloud.png)
 
 ## Performed Analysis
-1. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/InitialExploration.html" >Twitter Account Analytics</a>
+1. <a href="https://ansegura7.github.io/TwitterAnalytics/analysis/AccountAnalytics.html" >Twitter Account Analytics</a>
 
 ## Dependencies
 The project was carried out with the latest version of <a href="https://www.anaconda.com/distribution/" target="_blank" >Anaconda</a> on Windows.
