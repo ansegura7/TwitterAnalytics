@@ -1,7 +1,7 @@
 # Twitter Analytics
 Project where NLP techniques are used to perform analytics on tweets made by an account.
 
-![PCA Plot](https://raw.githubusercontent.com/ansegura7/TwitterAnalytics/master/img/wordcloud.png)
+![WordCloud](https://raw.githubusercontent.com/ansegura7/TwitterAnalytics/master/img/wordcloud.png)
 
 ## Performed Analysis
 1. <a href="https://ansegura7.github.io/TwitterAnalytics/analysis/AccountAnalytics.html" >Twitter Account Analytics</a>
