@@ -3,6 +3,9 @@ Web Mining project in which Descriptive Statistics and NLP techniques are used t
 
 ![WordCloud](https://raw.githubusercontent.com/ansegura7/TwitterAnalytics/master/img/wordcloud.png)
 
+## Data
+All tweets collected from a specific account using the <a href="https://developer.twitter.com/en" target="_blank" >Twitter API</a>.
+
 ## Performed Analysis
 1. <a href="https://ansegura7.github.io/TwitterAnalytics/analysis/AccountAnalytics.html" >Twitter Account Analytics</a>
 
