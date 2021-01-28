@@ -1,5 +1,5 @@
 # Twitter Analytics
-Web Mining project in which Descriptive Statistics and NLP techniques are used to analyze the behavior of a Twitter account and the content of their respective tweets.
+Web Mining project in which descriptive statistics and NLP techniques are used to analyze the behavior of a Twitter account (my personal one) and the content of their respective tweets.
 
 ![WordCloud](https://raw.githubusercontent.com/ansegura7/TwitterAnalytics/master/img/wordcloud.png)
 
@@ -9,6 +9,8 @@ All tweets collected from a specific account using the <a href="https://develope
 ## Performed Analysis
 1. <a href="https://ansegura7.github.io/TwitterAnalytics/analysis/AccountAnalytics.html" >Twitter Account Analytics</a>
 
+In the following <a href="https://github.com/ansegura7/TwitterAnalytics/tree/master/analysis" target="_blank">folder</a> you can see the results of the previous analyzes.
+
 ## Dependencies
 The project was carried out with the latest version of <a href="https://www.anaconda.com/distribution/" target="_blank" >Anaconda</a> on Windows.
 
@@ -16,8 +18,8 @@ To install this package with conda run one of the following:
 ``` console
 conda install -c conda-forge tweepy
 conda install -c conda-forge spacy
-conda install -c conda-forge wordcloud
 conda install -c conda-forge textblob
+conda install -c conda-forge wordcloud
 ```
 
 The specific Python 3.7.x libraries used are:
@@ -58,6 +60,7 @@ Any kind of feedback/criticism would be greatly appreciated (algorithm design, d
 ## Author
 - Created by Andrés Segura Tinoco
 - Created on May 24, 2020
+- Updated on Jan 28, 2021
 
 ## License
 This project is licensed under the terms of the MIT license.
