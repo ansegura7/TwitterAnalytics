@@ -26,7 +26,8 @@ def get_dict_from_yaml(yaml_path):
     
     return result
 
-def get_auth():
+# Twitter function - Read Twitter API authentication credentials
+def get_twitter_auth():
     # Read twitter bot credentials
     yaml_path = '../code/config/credentials.yml'
     twt_login = get_dict_from_yaml(yaml_path)
@@ -42,8 +43,8 @@ def get_auth():
     auth.set_access_token(access_token, access_token_secret)
     
     return auth
-    
-# Util function - Fetch tweets list from a specific user
+
+# Twitter function - Fetch tweets list from a specific user
 # Note: Twitter only allows access to a users most recent 3240 tweets with this method
 def get_all_tweets(api, screen_name):
     all_tweets = []
@@ -104,7 +105,7 @@ def mongodb_upsert_docs(mdb_login, doc_list):
     db = client[mdb_login['db']]
     coll = db[mdb_login['collection']]
     total_docs = coll.count_documents({})
-    print (coll.name, "has", total_docs, "total documents.")
+    print ('', coll.name, "has", total_docs, "total documents.")
     
     # Upsert documents
     for doc in doc_list:
@@ -119,8 +120,8 @@ def mongodb_upsert_docs(mdb_login, doc_list):
 #####################
 if __name__ == "__main__":
     
-    # 1. Create Twitter API object
-    auth = get_auth()
+    # 1. Create Twitter API bot
+    auth = get_twitter_auth()
     api = tweepy.API(auth)
     api.verify_credentials()
     print(">> Authentication OK")
@@ -129,10 +130,10 @@ if __name__ == "__main__":
     tw_user_name = "@seguraandres7"
     user = api.get_user(screen_name=tw_user_name)
     print(">> User details:")
-    print(user.name)
-    print(user.description)
-    print(user.location)
-    print(user.created_at)
+    print('', user.name)
+    print('', user.description)
+    print('', user.location)
+    print('', user.created_at)
     
     # 2. Fetching tweet list from a specific user
     tweet_list = get_all_tweets(api, screen_name=tw_user_name)
