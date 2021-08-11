@@ -8,7 +8,7 @@ All tweets collected from a specific account using the <a href="https://develope
 
 ## Performed Analysis
 1. <a href="https://ansegura7.github.io/TwitterAnalytics/analysis/AccountAnalytics.html" >Twitter Account Analytics</a>
-2. <a href="https://github.com/ansegura7/TwitterAnalytics/etl">Store last tweets in MongoDB</a>
+2. <a href="https://github.com/ansegura7/TwitterAnalytics/tree/master/etl">Store last tweets in MongoDB</a>
 
 In the following <a href="https://github.com/ansegura7/TwitterAnalytics/tree/master/analysis" target="_blank">folder</a> you can see the results of the previous analyzes.
 
