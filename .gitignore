@@ -1,5 +1,4 @@
 code/config/credentials.yml
-others/*
 *.exe
 *.pyc
 *.ipynb
