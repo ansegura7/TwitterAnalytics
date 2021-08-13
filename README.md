@@ -17,11 +17,13 @@ The project was carried out with the latest version of <a href="https://www.anac
 
 To install this package with conda run one of the following:
 ``` console
-conda install -c conda-forge tweepy
-conda install -c conda-forge spacy
-conda install -c conda-forge textblob
-conda install -c conda-forge wordcloud
-conda install -c anaconda pymongo
+to create the virtual environment:
+
+conda env create -f twitter-analytics-env.yml
+
+to activate it, then run:
+
+conda activate twitter-analytics-env
 ```
 
 The specific Python 3.7.x libraries used are:
