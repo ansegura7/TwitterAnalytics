@@ -71,8 +71,7 @@ Any kind of feedback/suggestions would be greatly appreciated (algorithm design,
 ## Author
 - Created by Andrés Segura-Tinoco
 - Created on May 24, 2020
-- Updated on Aug 11, 2021
+- Updated on Aug 16, 2021
 
 ## License
 This project is licensed under the terms of the <a href="https://github.com/ansegura7/TwitterAnalytics/blob/master/LICENSE">MIT license</a>.
-
